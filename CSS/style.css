@@ -14,12 +14,13 @@ nav {
 
 nav img {
     margin-top: 1.5rem;
+    margin-left: 3rem;
 }
 
 nav a {
    float: right;
     display: inline-block;
-    margin-right:  3rem;
+    margin-right:  4.5rem;
    padding-right: 5rem; 
    padding-top: 3rem;
   
