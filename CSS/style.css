@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+nav {
+    /* border: solid tomato; */
+    background-color: rgb(26, 24, 24);
+    width: 100%;
+    height: 7.2rem;
+    padding-left: 6rem;
+ 
+}
+
+nav img {
+    margin-top: 1.5rem;
+}
+
+nav a {
+   float: center;
+    display: inline-block;
+    margin-left:  5rem;
+    
+  padding: 1.5rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: larger;
+   color: #ddd;
+   /* border: solid tomato; */
+  
+}
+
+header  {
+    width: 960px;
+    /* border: solid tomato; */
+margin: 30px auto;
+}
+
+
+div {
+    width: 960px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 960px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section article {
+    width: 450px;
+    height: 400px;
+    
+   
+}
+
+
+section article p {
+    width: 450px;
+    height: 350px;
+    font-family: sans-serif;
+    font-size: 1.5pc;
+    overflow: auto;
+   
+}
+
+section article button {
+
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1pc;
+    color: white;
+    background-color: rgb(26, 24, 24);
+   border-style: none;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    padding: 0.6rem;
+}
+
+section article button:hover {
+    color: rgb(26, 24, 24);
+    background-color: white;
+}
+
+
+
+footer {
+    /* border: solid tomato; */
+    background-color: rgb(26, 24, 24);
+    width: 100%;
+    height: 6.5rem;
+    padding-left: 6rem;
+    
+
+}
